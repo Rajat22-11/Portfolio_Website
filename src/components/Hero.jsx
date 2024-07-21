@@ -1,8 +1,4 @@
 import React, { useEffect, useState } from 'react';
-<<<<<<< HEAD
-
-=======
->>>>>>> 89d966b7a11b59b32144a1ca6ecbb8e00c35c559
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
 

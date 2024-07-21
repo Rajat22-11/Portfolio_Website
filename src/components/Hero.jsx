@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import profilePic from "../assets/Image.png";
+
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
 

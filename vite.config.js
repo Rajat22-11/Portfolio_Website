@@ -3,12 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Portfolio_Website/', 
   build: {
     outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks: {
-          // Manually split large dependencies
           vendor: ['react', 'react-dom']
         }
       }
